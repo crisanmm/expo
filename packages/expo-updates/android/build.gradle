@@ -44,6 +44,8 @@ def exUpdatesNativeDebug = getBoolStringFromPropOrEnv("EX_UPDATES_NATIVE_DEBUG",
 // (default true)
 def exUpdatesAndroidDelayLoadApp = getBoolStringFromPropOrEnv("EX_UPDATES_ANDROID_DELAY_LOAD_APP", true)
 
+def useDevClient = findProject(":expo-dev-client") != null
+
 buildscript {
   // Simple helper that allows the root project to override versions declared by this library.
   ext.safeExtGet = { prop, fallback ->
@@ -132,6 +134,7 @@ android {
 
     buildConfigField("boolean", "EX_UPDATES_NATIVE_DEBUG", exUpdatesNativeDebug)
     buildConfigField("boolean", "EX_UPDATES_ANDROID_DELAY_LOAD_APP", exUpdatesAndroidDelayLoadApp)
+    buildConfigField("boolean", "USE_DEV_CLIENT", useDevClient.toString())
 
     // uncomment below to export the database schema when making changes
     /* javaCompileOptions {
