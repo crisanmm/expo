@@ -1562,7 +1562,7 @@ PODS:
   - React-Mapbuffer (0.74.0-rc.6):
     - glog
     - React-debug
-  - react-native-netinfo (11.1.0):
+  - react-native-netinfo (11.3.1):
     - React-Core
   - react-native-pager-view (6.2.3):
     - DoubleConversion
@@ -1585,7 +1585,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - react-native-safe-area-context (4.8.2):
+  - react-native-safe-area-context (4.10.0-rc.1):
     - React-Core
   - react-native-segmented-control (2.4.1):
     - React-Core
@@ -2582,9 +2582,9 @@ SPEC CHECKSUMS:
   React-jsitracing: cbdf29742ac2bb53393777a2bde00ab6620fe668
   React-logger: 2fa117661e8ee0c133fddcf5772ff28b82241a56
   React-Mapbuffer: 6a29ddb15979e501733cd3c91679bbfd8af77005
-  react-native-netinfo: 3aa5637c18834966e0c932de8ae1ae56fea20a97
+  react-native-netinfo: bdb108d340cdb41875c9ced535977cac6d2ff321
   react-native-pager-view: 880c1bb546f47322d03b56ff2810aa5e990e582c
-  react-native-safe-area-context: 0ee144a6170530ccc37a0fd9388e28d06f516a89
+  react-native-safe-area-context: 71e343069c879133ea9c194097261830f6d23478
   react-native-segmented-control: 0e4b5d93911e2234f110057df2b41738b326ab3e
   react-native-slider: 33b8d190b59d4f67a541061bb91775d53d617d9d
   react-native-view-shot: 6b7ed61d77d88580fed10954d45fad0eb2d47688
@@ -2633,4 +2633,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 428ebd89059c49443b3f67b727657762b113ac01
 
-COCOAPODS: 1.14.2
+COCOAPODS: 1.15.2

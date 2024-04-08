@@ -10,6 +10,7 @@ import com.facebook.react.bridge.NativeModule
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.uimanager.ViewManager
 import com.horcrux.svg.SvgPackage
+import com.reactnativecommunity.netinfo.NetInfoModule
 import com.reactnativecommunity.picker.RNCPickerPackage
 import com.reactnativecommunity.slider.ReactSliderPackage
 import com.reactnativecommunity.webview.RNCWebViewModule
@@ -41,7 +42,6 @@ import versioned.host.exp.exponent.modules.api.URLHandlerModule
 import versioned.host.exp.exponent.modules.api.cognito.RNAWSCognitoModule
 import versioned.host.exp.exponent.modules.api.components.datetimepicker.RNDateTimePickerPackage
 import versioned.host.exp.exponent.modules.api.components.maskedview.RNCMaskedViewPackage
-import versioned.host.exp.exponent.modules.api.netinfo.NetInfoModule
 import versioned.host.exp.exponent.modules.api.notifications.NotificationsModule
 import versioned.host.exp.exponent.modules.api.viewshot.RNViewShotModule
 import versioned.host.exp.exponent.modules.internal.DevMenuModule
